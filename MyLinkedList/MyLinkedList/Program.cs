@@ -12,17 +12,6 @@ namespace MyLinkedList
 
         public static void Main(string[] args)
         {
-            SinglyLinkedList singlyLinkedList = new SinglyLinkedList();
-            singlyLinkedList.Add(4);
-            singlyLinkedList.Add(3);
-            singlyLinkedList.Add(2);
-            singlyLinkedList.Add(5);
-
-            Console.WriteLine(singlyLinkedList.Length);
-            Console.WriteLine(singlyLinkedList);
-
-
-            Console.ReadKey();
         }
     }
 }

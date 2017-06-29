@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace MyLinkedList
 {
-    interface ILinkedList
+    interface ILinkedList<T>
     {
-        Node Head { get; set; }
+        Node<T> Head { get; set; }
         int Length { get; set; }
         bool IsEmpty { get; set; }
-        void Add(object elem);
+        void Add(T elem);
         void Remove(int index);
     }
 }

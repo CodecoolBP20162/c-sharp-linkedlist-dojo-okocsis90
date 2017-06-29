@@ -11,9 +11,6 @@ namespace MyLinkedList.Tests
     [TestClass()]
     public class ProgramTests
     {
-        [TestMethod()]
-        public void GiveBackOneTest()
-        {
-        }
+
     }
 }
